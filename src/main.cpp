@@ -28,6 +28,10 @@ void render();
 
 int main(int argc, char* argv[])
 {
+  int a,b;
+  scanf("%d %d",&a, &b);
+  printf("%d",a+b);
+  /*
     if (!init()) {
 			return 1; // something's wrong
     }
@@ -86,7 +90,7 @@ int main(int argc, char* argv[])
 
     TTF_CloseFont(m_pFont);
     TTF_Quit();
-
+*/
     return 0;
 }
 

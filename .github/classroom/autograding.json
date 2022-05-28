@@ -3,7 +3,7 @@
     {
       "name": "1",
       "setup": "",
-      "run": "./a.out",
+      "run": "./bin/a.out",
       "input": "1 2",
       "output": "3",
       "comparison": "included",

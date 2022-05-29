@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "",
+      "run": "./bin/a.out",
+      "input": "1 2",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./aa",
+      "input": "1 2",
+      "output": "3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
